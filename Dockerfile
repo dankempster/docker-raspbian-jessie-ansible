@@ -3,7 +3,7 @@ LABEL maintainer="Dan Kempster"
 
 ENV DEBIAN_FRONTEND noninteractive
 
-ENV pip_packages "ansible cryptography"
+ENV pip_packages "setuptools ansible cryptography"
 
 # Install dependencies.
 RUN apt-get update \
